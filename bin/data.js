@@ -1,7 +1,7 @@
 const { Octokit } = require('octokit');
 
 const octokit = new Octokit({
-  auth: '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',
+  auth: '-- YOUR SECRET TOKEN --',
 });
 
 const data_return = async (startdate, enddate) => {
