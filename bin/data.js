@@ -1,7 +1,7 @@
 const { Octokit } = require('octokit');
 
 const octokit = new Octokit({
-  auth: '-- YOUR GITHUB SECRET TOKEN --',
+  auth: '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',
 });
 
 const data_return = async (startdate, enddate) => {
